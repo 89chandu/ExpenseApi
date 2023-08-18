@@ -16,7 +16,7 @@ app.use('/users', UserRoute)
 app.use('/expenses', ExpensesRoute);
 
 
-const PORT = process.env.PORT||3006
+const PORT = process.env.PORT||3000
 async function serverStart() {
 	try {
 		await connectDB();
